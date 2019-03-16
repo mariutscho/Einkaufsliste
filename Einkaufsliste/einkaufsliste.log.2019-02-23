@@ -1,0 +1,14 @@
+DEBUG 5 Einkaufsliste.WebForm1 - Starte Anwednung
+DEBUG 5 Einkaufsliste.DBConnection - Datenbankverbindung zu Server: maz-01\sqlexpressund Datenbank: einkaufsliste
+DEBUG 19 Einkaufsliste.WebForm1 - Starte Anwednung
+DEBUG 19 Einkaufsliste.DBConnection - Datenbankverbindung zu Server: maz-01\sqlexpressund Datenbank: einkaufsliste
+DEBUG 16 Einkaufsliste.DBConnection - Datenbankverbindung zu Server: maz-01\sqlexpressund Datenbank: einkaufsliste
+DEBUG 16 Einkaufsliste.WebForm2 - Datenbankabfrage für Einkaufsliste wird gestellt
+DEBUG 16 Einkaufsliste.WebForm2 - Daten werden an das Table Control gebunden
+DEBUG 18 Einkaufsliste.WebForm1 - Starte Anwednung
+DEBUG 18 Einkaufsliste.DBConnection - Datenbankverbindung zu Server: maz-01\sqlexpressund Datenbank: einkaufsliste
+DEBUG 16 Einkaufsliste.WebForm1 - Starte Anwednung
+DEBUG 16 Einkaufsliste.DBConnection - Datenbankverbindung zu Server: maz-01\sqlexpressund Datenbank: einkaufsliste
+DEBUG 16 Einkaufsliste.DBConnection - Datenbankverbindung zu Server: maz-01\sqlexpressund Datenbank: einkaufsliste
+DEBUG 16 Einkaufsliste.WebForm2 - Datenbankabfrage für Einkaufsliste wird gestellt
+DEBUG 16 Einkaufsliste.WebForm2 - Daten werden an das Table Control gebunden

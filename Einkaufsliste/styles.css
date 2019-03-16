@@ -1,0 +1,79 @@
+label {
+    font-weight: normal
+}
+
+body {
+    font-weight: normal
+}
+
+#globalNavi {
+    margin-top: 10px;
+}
+
+
+#globalNavi li {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    font-weight: bold;
+    float: left;
+    height: 25px;
+    width: 200px;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:5px;
+}
+
+#globalNavi ul {
+    margin:0;
+    padding-left:20px;
+
+}
+#globalNavi a {
+    text-decoration: none;
+    color: #000;
+}
+
+#content {
+    clear: left;
+    padding: 20px 0;
+}
+
+.pad20 {
+    padding: 20px !important;
+}
+
+#auswahlForm {
+    clear: left;
+    /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex; /* or inline-flex */
+    flex-wrap: wrap;
+    align-content:flex-start
+}
+
+#submitForm {
+    clear: left;
+    margin-top: 20px;
+}
+
+.produktKategorie {
+    float: left;
+    width: 300px;
+    border: 0px solid red;
+    padding: 0 20px;
+}
+.einkaufMarkt {
+margin-top: 20px
+}
+
+table {
+    padding: 3px;
+}
+
+@media print {
+    #globalNavi {display:none}
+    #content > h1 {display:none}
+    body {font-size:smaller}
+    #content, .pad20 {padding:0}
+    
+}

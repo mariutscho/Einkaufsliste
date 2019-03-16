@@ -1,0 +1,154 @@
+﻿produktID;produktName;produktKategorie;produktMarkt;produktRangfolge;produktPreis
+1;Graubrot;Brot, Cerialien, etc.;Aldi;08000;1.29
+2;Toast;Brot, Cerialien, etc.;Aldi;00400;0.59
+3;Mehrkornbrötchen zum Aufbacken;Brot, Cerialien, etc.;Aldi;00600;1.39
+4;Weizenbrötchen zum Aufbacken;Brot, Cerialien, etc.;Aldi;00700;0.89
+5;Granatäpfel;Obst;REWE;00050;
+6;Schokobrötchen;Brot, Cerialien, etc.;Aldi;00200;1.49
+7;Cola Zero;Getränke;REWE Getränke;00100;
+8;Spülmaschinensalz;Haushalt & Katzen;DM;00100;
+9;Kaffeemaschinen Entkalker;Haushalt & Katzen;DM;00100;0.95
+10;Johannesbeeren;Obst;REWE;00100;
+11;Nussecke;Brot, Cerialien, etc.;Aldi;00300;
+12;Mühlenfrikadellen;Fisch, Fleisch & Vegi;REWE;00200;
+13;Veg. Bolognese;Fisch, Fleisch & Vegi;DM;00200;1.35
+14;Bizzl;Getränke;REWE Getränke;00200;
+15;Käsetortellini;Grundnahrungsmittel;REWE;00250;
+16;Hamburgerbrötchen;Brot, Cerialien, etc.;Aldi;00500;0.69
+17;Currywurst;Fisch, Fleisch & Vegi;REWE;00300;1.99
+18;Wasser m. Kohlensäure;Getränke;REWE Getränke;00300;
+19;Kissen (Nougat Bits);Brot, Cerialien, etc.;Aldi;01100;1.99
+20;Kiri-Dip;Käse, Eier & Milch;REWE;00400;
+21;Müsli;Brot, Cerialien, etc.;Aldi;01200;1.89
+22;Bagels;Brot, Cerialien, etc.;REWE;00500;
+23;Corny Milch;Brot, Cerialien, etc.;Aldi;01500;1.29
+24;Vollkornbrot;Brot, Cerialien, etc.;REWE;00600;0.59
+25;Fruchtzwerge;Käse, Eier & Milch;REWE;00630;1.59
+26;Corny Schoko;Brot, Cerialien, etc.;Aldi;01600;1.25
+27;Clementine 7%;Sonstiges;REWE;00650;
+28;Rotes Curry Creme;Grundnahrungsmittel;REWE;00660;1.99
+29;Bio Nuss;Brot, Cerialien, etc.;Aldi;01250;1.59
+30;Buchstabensuppe;Grundnahrungsmittel;REWE;00700;
+31;Studentenfutter klein;Brot, Cerialien, etc.;Aldi;02300;
+32;Miracolisoße;Sonstiges;REWE;00750;
+33;Rigatoni (Lochnudeln);Grundnahrungsmittel;REWE;00800;0.99
+34;Aufbackstangen;Brot, Cerialien, etc.;Aldi;04100;
+35;Linsen;Grundnahrungsmittel;REWE;00900;
+36;Miracoli;Grundnahrungsmittel;REWE;00950;2.49
+37;Rotkohl;Gemüse;REWE;01000;0.99
+38;Aufbackbretzeln;Brot, Cerialien, etc.;Aldi;04200;
+39;Sauerkraut;Gemüse;REWE;01100;
+40;Walnüsse;Fisch, Fleisch & Vegi;Aldi;05110;
+41;Wassereis;Süßes;REWE;01200;0.79
+42;Chicken Nuggets;Fisch, Fleisch & Vegi;Aldi;04400;
+43;Salami;Fisch, Fleisch & Vegi;Aldi;06050;1.19
+44;Veg. Bratwurst;Fisch, Fleisch & Vegi;Aldi;05400;
+45;Veg. Burger;Fisch, Fleisch & Vegi;Aldi;05500;1.85
+46;Katzenstreu;Haushalt & Katzen;REWE;01300;4.79
+47;Spülmaschinen Klarspüler;Haushalt & Katzen;REWE;01350;
+48;Pizza Thunfisch Ristorante;Grundnahrungsmittel;REWE;01380;2.69
+49;Rahm-Blumenkohl;Gemüse;REWE;01400;
+50;Veg. Hackbälchen;Fisch, Fleisch & Vegi;Aldi;05600;
+51;Veg. Nuggets;Fisch, Fleisch & Vegi;Aldi;05700;1.99
+52;Eis Dolomiti;Süßes;REWE;01500;2.99
+53;Veg. Schnitzel;Fisch, Fleisch & Vegi;Aldi;05800;
+54;Kl. Bratwürstchen;Fisch, Fleisch & Vegi;Aldi;06100;
+55;Bordolaise;Fisch, Fleisch & Vegi;Aldi;07500;1.89
+56;Fischstäbchen;Fisch, Fleisch & Vegi;Aldi;06250;1.89
+57;Thunfisch;Fisch, Fleisch & Vegi;Aldi;04250;1.29
+58;Ingwer;Gemüse;Aldi;04500;
+59;Zwiebel;Gemüse;Aldi;04600;
+60;Karotten;Gemüse;Aldi;04700;
+61;Paprika-Mix;Gemüse;Aldi;04800;1.29
+62;Salatgurke;Gemüse;Aldi;04900;0.79
+63;Zucchini;Gemüse;Aldi;05000;
+64;Eisbergsalat;Gemüse;Aldi;05100;1.49
+65;Salat im Beutel;Gemüse;Aldi;05820;
+66;Tomaten (Dattel);Gemüse;Aldi;05200;2.69
+67;Brokkoli;Gemüse;Aldi;08000;1.49
+68;Kaisergemüse;Gemüse;Aldi;08100;
+69;Rahmspinat;Gemüse;Aldi;08200;0.49
+70;Erbsen klein;Gemüse;Aldi;09200;1.29
+71;Dosen-Tomaten (gestückelt);Gemüse;Aldi;09300;0.39
+72;Dosen-Tomaten (ganze);Gemüse;Aldi;09320;0.35
+73;Brechbohnen;Gemüse;Aldi;09400;0.69
+74;Passierte Tomaten;Gemüse;Aldi;09500;0.39
+75;Wasser Vio;Getränke;Aldi;01295;0.79
+76;Kl. Wasser;Getränke;Aldi;01300;1.74
+77;Cola Zero;Getränke;Aldi;01400;0.99
+78;Loops;Grundnahrungsmittel;Aldi;07820;
+79;Kartoffeln festkochend;Grundnahrungsmittel;Aldi;02600;1.49
+80;Käsetortellini;Grundnahrungsmittel;Aldi;06000;1.19
+81;Basmati Reis;Grundnahrungsmittel;Aldi;06200;1.99
+82;Penne Nudeln;Grundnahrungsmittel;Aldi;06300;0.75
+83;Fusili Nudeln;Grundnahrungsmittel;Aldi;06500;0.75
+84;Kroketten;Grundnahrungsmittel;Aldi;07700;1.29
+85;Pommes;Grundnahrungsmittel;Aldi;07800;1.19
+86;Röstiecken;Grundnahrungsmittel;Aldi;07900;
+87;Kartoffel Knuspertaschen;Grundnahrungsmittel;Aldi;07920;1.89
+88;Pizzateig;Grundnahrungsmittel;Aldi;05840;1.59
+89;Brillentücher;Haushalt & Katzen;Aldi;0;
+90;Katzenbeutel;Haushalt & Katzen;Aldi;02700;
+91;Kl. Mülltüten;Haushalt & Katzen;Aldi;02800;
+92;Grüne Mülltüten;Haushalt & Katzen;Aldi;02900;
+93;Spülmaschinentabs;Haushalt & Katzen;Aldi;02950;2.85
+94;Vollwaschmittel;Haushalt & Katzen;Aldi;03300;3.99
+95;Colorwaschmittel;Haushalt & Katzen;Aldi;03400;3.99
+96;Servietten;Haushalt & Katzen;Aldi;03600;0.55
+97;Küchenrolle;Haushalt & Katzen;Aldi;03700;1.25
+98;Klopapier;Haushalt & Katzen;Aldi;03800;2.95
+99;Katzenfutter;Haushalt & Katzen;Aldi;03900;2.25
+100;Brekkies;Haushalt & Katzen;Aldi;04000;
+101;Mehl;Käse, Eier & Milch;Aldi;0;
+102;Kräuterquark;Käse, Eier & Milch;Aldi;05900;0.55
+103;Scheibenkäse Aufschnitt;Käse, Eier & Milch;Aldi;06600;1.49
+104;Parmesan;Käse, Eier & Milch;Aldi;06601;
+105;Geriebenener Käse;Käse, Eier & Milch;Aldi;06602;1.49
+106;Zookäse / Sandwich-Scheiben;Käse, Eier & Milch;Aldi;06700;1.79
+107;Schafskäse;Käse, Eier & Milch;Aldi;06800;0.99
+108;Mozarella;Käse, Eier & Milch;Aldi;06900;0.65
+109;Camenbert;Käse, Eier & Milch;Aldi;07000;1.19
+110;Frischkäse;Käse, Eier & Milch;Aldi;07100;0.99
+111;Joghurt pur;Käse, Eier & Milch;Aldi;07300;0.35
+112;Joghurt mit der Ecke;Käse, Eier & Milch;Aldi;07301;0.29
+113;Quark m. Frucht;Käse, Eier & Milch;Aldi;07400;0.59
+114;Butter;Käse, Eier & Milch;Aldi;08500;1.69
+115;Milch;Käse, Eier & Milch;Aldi;08600;0.62
+116;Eier;Käse, Eier & Milch;Aldi;08700;0.99
+117;Magarine;Käse, Eier & Milch;Aldi;09100;
+118;Baby-Bell;Käse, Eier & Milch;Aldi;07010;1.69
+119;Nivea;Körperpflege;Aldi;03000;
+120;Zahnpasa;Körperpflege;Aldi;03100;1.25
+121;Duschgel;Körperpflege;Aldi;03200;0.55
+122;Shampoo;Körperpflege;Aldi;03500;
+123;Mundspülung;Körperpflege;Aldi;03550;0.75
+124;Bio-Obstriegel;Obst;Aldi;02100;2.39
+125;Apfel;Obst;Aldi;02400;
+126;Kiwi;Obst;Aldi;02500;0.12
+127;Brühwürfe;Sonstiges;Aldi;0;
+128;Honig (klar);Sonstiges;Aldi;00650;
+129;Kakao;Sonstiges;Aldi;00700;
+130;Nussnugat Creme;Sonstiges;Aldi;00800;1.29
+131;Kaffee;Sonstiges;Aldi;00100;1.39
+132;Tomatenmark;Sonstiges;Aldi;06400;0.49
+133;Tomaten Ketchup;Sonstiges;Aldi;08300;0.79
+134;Senf;Sonstiges;Aldi;08400;
+135;Gewürzgurken (Cornichons);Sonstiges;Aldi;08800;1.09
+136;Öl normal;Sonstiges;Aldi;08900;1.59
+137;Salatfix;Sonstiges;Aldi;09000;
+138;Olivenöl;Sonstiges;Aldi;09600;3.99
+139;Lebkuchen;Süßes;Aldi;0;
+140;Tafel Schokolade Milka;Süßes;Aldi;01700;0.95
+141;Kinderschokolade;Süßes;Aldi;01800;1.99
+142;Kesselchips;Süßes;Aldi;01900;0.99
+143;Chips;Süßes;Aldi;02000;
+144;Knoppers;Süßes;Aldi;01260;1.89
+145;Eis;Süßes;Aldi;04300;
+146;Kinderpinguin;Süßes;Aldi;07200;1.99
+147;Orangensaft direkt gepresst;Getränke;Aldi;05350;1.49
+148;Tafel Schokolade;Süßes;Aldi;01750;
+149;Backpapier;Haushalt & Katzen;Aldi;02650;0.95
+150;Waschlotion;Körperpflege;Aldi;*03250;0.89
+151;Salz;Grundnahrungsmittel;Aldi;06025;0.19
+152;Schlagsahne;Käse, Eier & Milch;Aldi;07250;
+153;Mais klein;Gemüse;Aldi;09250;

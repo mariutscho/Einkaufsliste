@@ -1,0 +1,10 @@
+DEBUG 5 Einkaufsliste.WebForm1 - Starte Anwednung und erstelle Datenbankverbindung zu Server: und Datenbank: 
+DEBUG 5 Einkaufsliste.WebForm2 - Datenbankabfrage für Einkaufsliste wird gestellt
+DEBUG 5 Einkaufsliste.WebForm2 - Daten werden an das Table Control gebunden
+DEBUG 6 Einkaufsliste.WebForm1 - Starte Anwednung und erstelle Datenbankverbindung zu Server: und Datenbank: 
+ERROR 6 Einkaufsliste.WebForm2 - Fehler!!! Cannot open database "einkaufslist" requested by the login. The login failed.
+Login failed for user 'CSF\mazimmermann'.
+DEBUG 6 Einkaufsliste.WebForm1 - Starte Anwednung und erstelle Datenbankverbindung zu Server: und Datenbank: 
+DEBUG 9 Einkaufsliste.WebForm1 - Starte Anwednung und erstelle Datenbankverbindung zu Server: und Datenbank: 
+DEBUG 15 Einkaufsliste.WebForm2 - Datenbankabfrage für Einkaufsliste wird gestellt
+DEBUG 15 Einkaufsliste.WebForm2 - Daten werden an das Table Control gebunden
