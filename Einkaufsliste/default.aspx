@@ -6,7 +6,7 @@
 <head runat="server">
     <%-- TODO: Auslagerung von mehrmals verwendetem HTML Code --%>
     <title></title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
     <div id="globalNavi">
