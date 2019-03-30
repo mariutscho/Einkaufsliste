@@ -2,41 +2,81 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
-
     <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+        <div class="col-md-3">
+            <h3>Grundnahrungsmittel</h3>
+<%--            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary"><asp:CheckBox ID="Apfel" runat="server" autocomplete="off" />Apfel</label>
+            </div>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary"><asp:CheckBox ID="Toast" runat="server" autocomplete="off" />Toast</label>
+            </div>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary"><asp:CheckBox ID="Mehrkornbroetchen" runat="server" autocomplete="off" />Mehrkornbrötchen zum Aufbacken</label>
+            </div>--%>
+            <asp:CheckBoxList ID="Grundnahrungsmittel" runat="server"></asp:CheckBoxList>
         </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
+        <div class="col-md-3">
+            <h3>Brot, Cerialien, etc.</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="BrotEtc" runat="server"></asp:CheckBoxList>
+                <!-- https://stackoverflow.com/questions/873944/asp-net-display-selected-items-from-listbox-in-textbox -->
+            </div>
         </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
+        <div class="col-md-3">
+            <h3>Gemüse</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="Gemuese" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Obst</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="Obst" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Fisch, Fleisch & Vegi</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="FischEtc" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Käse, Eier & Milch</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="KaeseEtc" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Süßes</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="Suesses" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Getränke</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="Getraenke" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Haushalt & Katzen</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="HaushaltEtc" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Körperpflege</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="Koerperpflege" runat="server"></asp:CheckBoxList>
+        </div>
+        <div class="col-md-3">
+            <h3>Sonstiges</h3>
+            <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
+            <asp:CheckBoxList ID="Sonstiges" runat="server"></asp:CheckBoxList>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-30">
+            <asp:Button ID="Button2" runat="server" Text="Speichere Warenkorb" OnClick="SpeichereWarenkorb" CssClass="btn btn-default" />
+        </div>
+    </div>
+    <asp:Label ID="ausgabe" runat="server" CssClass="alert alert-danger"></asp:Label>
+
+
 
 </asp:Content>

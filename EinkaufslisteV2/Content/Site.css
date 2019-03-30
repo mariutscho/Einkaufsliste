@@ -29,3 +29,8 @@ textarea {
         padding: 0;
     }
 }
+
+.btn-primary{
+    background-color: lightslategray ;
+    margin-bottom:3px;
+}
