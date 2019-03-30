@@ -28,7 +28,7 @@ namespace EinkaufslisteV2
             {
                 // TODO: Unterscheide nach Markt und gebe in zwei Tabellen aus
                 // Generiere Warenkorb sortiert nach Srandort der Produkte im Regal
-                cmdListe.CommandText = "SELECT produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' ORDER BY produktRangfolge";
+                cmdListe.CommandText = "SELECT produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' AND produktMarkt = 'Aldi' ORDER BY produktRangfolge";
                 cmdListe.Connection = dbconnect.con;
                 // Frage nach Status der DB Verbindung
                 if (dbconnect.con.State == ConnectionState.Closed)

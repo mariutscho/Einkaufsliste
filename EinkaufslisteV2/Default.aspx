@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="EinkaufslisteV2._Default" %>
+﻿<%@ Page Title="Einkauf wählen" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="EinkaufslisteV2._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <h2><%: Title %>.</h2>
     <div class="row">
         <div class="col-md-3">
             <h3>Brot, Cerialien, etc.</h3>
