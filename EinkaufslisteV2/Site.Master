@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Eigene ASP.NET-Anwendung</title>
+    <title><%: Page.Title %> Einkaufsplanung</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -73,8 +73,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Einkauf auswählen</a></li>
-                        <li><a runat="server" href="~/Aldi" OnClick="SpeichereWarenkorb">Aldi-Liste erstellen</a></li>
-                       <%-- <li><a runat="server" href="~/Rewe">Rewe-Liste erstellen</a></li> --%>
+                        <li><a runat="server" href="~/Aldi" OnClick="SpeichereWarenkorb">Aldi Einkaufsliste</a></li>
+                       <li><a runat="server" href="~/Rewe">Rewe Einkaufsliste</a></li>
                     </ul>
                 </div>
             </div>
