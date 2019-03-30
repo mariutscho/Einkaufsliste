@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-3">
             <h3>Grundnahrungsmittel</h3>
-<%--            <div class="btn-group" data-toggle="buttons">
+            <%--            <div class="btn-group" data-toggle="buttons">
                 <label class="btn btn-primary"><asp:CheckBox ID="Apfel" runat="server" autocomplete="off" />Apfel</label>
             </div>
             <div class="btn-group" data-toggle="buttons">
@@ -14,7 +14,9 @@
             <div class="btn-group" data-toggle="buttons">
                 <label class="btn btn-primary"><asp:CheckBox ID="Mehrkornbroetchen" runat="server" autocomplete="off" />Mehrkornbrötchen zum Aufbacken</label>
             </div>--%>
-            <asp:CheckBoxList ID="Grundnahrungsmittel" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Grundnahrungsmittel" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Brot, Cerialien, etc.</h3>
@@ -27,47 +29,65 @@
         <div class="col-md-3">
             <h3>Gemüse</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="Gemuese" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Gemuese" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Obst</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="Obst" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Obst" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Fisch, Fleisch & Vegi</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="FischEtc" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="FischEtc" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Käse, Eier & Milch</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="KaeseEtc" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="KaeseEtc" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Süßes</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="Suesses" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Suesses" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Getränke</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="Getraenke" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Getraenke" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Haushalt & Katzen</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="HaushaltEtc" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="HaushaltEtc" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Körperpflege</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="Koerperpflege" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Koerperpflege" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
         <div class="col-md-3">
             <h3>Sonstiges</h3>
             <%-- Alle Produkte anzeigen, sortiert nach Kategorie --%>
-            <asp:CheckBoxList ID="Sonstiges" runat="server"></asp:CheckBoxList>
+            <div class="checkbox">
+                <asp:CheckBoxList ID="Sonstiges" runat="server"></asp:CheckBoxList>
+            </div>
         </div>
     </div>
     <div class="row">
