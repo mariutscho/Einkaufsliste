@@ -33,9 +33,27 @@ namespace EinkaufslisteV2
             if (!IsPostBack)
             {
                 this.GetProdukte();
+                this.listCheckbox();
+
             }
         }
 
+       
+        private void listCheckbox()
+        {
+            //CheckBox chk = new CheckBox();
+            //chk.ID = "1";
+            //chk.Text = "test";
+            //chk.LabelAttributes.Add("Css", "btn btn-primary");
+            //CheckBoxList cbList = new CheckBoxList();
+
+            //for (int i = 0; i < 10; i++)
+            //    cbList.Items.Add(new ListItem("Checkbox " + i.ToString(), i.ToString()));
+
+            //test.Controls.Add(chk);
+
+
+        }
         /// <summary>
         /// Gebe Produkte aus und sortiere alphabetisch. 
         /// Organisiere die Produkte nach Kategorien.
@@ -64,6 +82,16 @@ namespace EinkaufslisteV2
                     while (reader.Read())
                     {
                         ListItem item = new ListItem();
+
+                        if (reader["produktName"].ToString() == "Apfel")
+                        {
+                        CheckBox test = new CheckBox();
+                            test.ID = String.Format("CheckBox_{0}", reader["produktName"].ToString());
+                            test.Text = String.Format("CheckBox {0}", reader["produktName"].ToString());
+                          
+                        }
+
+
                         item.Text = reader["produktName"].ToString();
                         item.Value = reader["produktID"].ToString();
 

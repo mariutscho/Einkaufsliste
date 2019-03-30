@@ -92,11 +92,15 @@
     </div>
     <div class="row">
         <div class="col-md-30">
-            <asp:Button ID="Button2" runat="server" Text="Speichere Warenkorb" OnClick="SpeichereWarenkorb" CssClass="btn btn-default" />
+            <asp:Button ID="Button2" runat="server" Text="Warenkorb speichern" OnClick="SpeichereWarenkorb" CssClass="btn btn-default" />
+            <input onclick="clear_form_elements(this.form)" type="button" value="Formular zurücksetzen" class="btn btn-default"/> 
         </div>
     </div>
+    
     <asp:Label ID="ausgabe" runat="server"></asp:Label>
 
-
+<%--      <div class="btn-group" data-toggle="buttons">
+    <asp:PlaceHolder ID="test" runat="server"></asp:PlaceHolder>
+          </div>--%>
 
 </asp:Content>

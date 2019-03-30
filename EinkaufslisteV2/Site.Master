@@ -15,7 +15,27 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+   <script>
+       function clear_form_elements(ele) {
 
+        $(ele).find(':input').each(function() {
+            switch(this.type) {
+                case 'password':
+                case 'select-multiple':
+                case 'select-one':
+                case 'text':
+                case 'textarea':
+                    $(this).val('');
+                    break;
+                case 'checkbox':
+                case 'radio':
+                    this.checked = false;
+            }
+        });
+
+    }
+
+   </script>
 </head>
 <body>
     <form runat="server">
@@ -36,6 +56,7 @@
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
+            
             </Scripts>
         </asp:ScriptManager>
 
