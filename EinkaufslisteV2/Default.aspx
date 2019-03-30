@@ -95,7 +95,7 @@
             <asp:Button ID="Button2" runat="server" Text="Speichere Warenkorb" OnClick="SpeichereWarenkorb" CssClass="btn btn-default" />
         </div>
     </div>
-    <asp:Label ID="ausgabe" runat="server" CssClass="alert alert-danger"></asp:Label>
+    <asp:Label ID="ausgabe" runat="server"></asp:Label>
 
 
 
