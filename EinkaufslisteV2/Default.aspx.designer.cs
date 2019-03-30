@@ -13,15 +13,6 @@ namespace EinkaufslisteV2 {
     public partial class _Default {
         
         /// <summary>
-        /// Grundnahrungsmittel-Steuerelement
-        /// </summary>
-        /// <remarks>
-        /// Automatisch generiertes Feld
-        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList Grundnahrungsmittel;
-        
-        /// <summary>
         /// BrotEtc-Steuerelement
         /// </summary>
         /// <remarks>
@@ -29,24 +20,6 @@ namespace EinkaufslisteV2 {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList BrotEtc;
-        
-        /// <summary>
-        /// Gemuese-Steuerelement
-        /// </summary>
-        /// <remarks>
-        /// Automatisch generiertes Feld
-        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList Gemuese;
-        
-        /// <summary>
-        /// Obst-Steuerelement
-        /// </summary>
-        /// <remarks>
-        /// Automatisch generiertes Feld
-        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList Obst;
         
         /// <summary>
         /// FischEtc-Steuerelement
@@ -58,22 +31,13 @@ namespace EinkaufslisteV2 {
         protected global::System.Web.UI.WebControls.CheckBoxList FischEtc;
         
         /// <summary>
-        /// KaeseEtc-Steuerelement
+        /// Gemuese-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList KaeseEtc;
-        
-        /// <summary>
-        /// Suesses-Steuerelement
-        /// </summary>
-        /// <remarks>
-        /// Automatisch generiertes Feld
-        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList Suesses;
+        protected global::System.Web.UI.WebControls.CheckBoxList Gemuese;
         
         /// <summary>
         /// Getraenke-Steuerelement
@@ -85,6 +49,24 @@ namespace EinkaufslisteV2 {
         protected global::System.Web.UI.WebControls.CheckBoxList Getraenke;
         
         /// <summary>
+        /// Grundnahrungsmittel-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList Grundnahrungsmittel;
+        
+        /// <summary>
+        /// Obst-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList Obst;
+        
+        /// <summary>
         /// HaushaltEtc-Steuerelement
         /// </summary>
         /// <remarks>
@@ -92,6 +74,15 @@ namespace EinkaufslisteV2 {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList HaushaltEtc;
+        
+        /// <summary>
+        /// KaeseEtc-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList KaeseEtc;
         
         /// <summary>
         /// Koerperpflege-Steuerelement
@@ -110,6 +101,15 @@ namespace EinkaufslisteV2 {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList Sonstiges;
+        
+        /// <summary>
+        /// Suesses-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList Suesses;
         
         /// <summary>
         /// Button2-Steuerelement
