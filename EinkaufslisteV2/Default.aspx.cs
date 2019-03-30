@@ -72,19 +72,19 @@ namespace EinkaufslisteV2
                             item.Selected = true;
                         }
 
-                        if (reader["produktName"].ToString() == "Apfel")
-                        {
-                            Apfel.Checked = true;
+                        //if (reader["produktName"].ToString() == "Apfel")
+                        //{
+                        //    Apfel.Checked = true;
                         
-                        }
-                        if ((reader["produktname"].ToString() == "Toast") && (reader["ProduktWarenkorb"].ToString() == "true"))
-                        {
-                            Toast.Checked = true;
-                        }
-                        if ((reader["produktname"].ToString() == "Mehrkornbroetchen" && reader["ProduktWarenkorb"].ToString() == "true"))
-                        {
-                            Mehrkornbroetchen.Checked = true;
-                        }
+                        //}
+                        //if ((reader["produktname"].ToString() == "Toast") && (reader["ProduktWarenkorb"].ToString() == "true"))
+                        //{
+                        //    Toast.Checked = true;
+                        //}
+                        //if ((reader["produktname"].ToString() == "Mehrkornbroetchen" && reader["ProduktWarenkorb"].ToString() == "true"))
+                        //{
+                        //    Mehrkornbroetchen.Checked = true;
+                        //}
 
                         string produktKategorie = reader["produktKategorie"].ToString();
 
