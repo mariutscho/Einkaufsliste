@@ -28,22 +28,22 @@ namespace EinkaufslisteV2.Models
 
             conbuilder = new SqlConnectionStringBuilder //! Verbindungsparameter initiieren
             {
-               //Verbindungsparameter zur lokalen Datenbank
                //TODO: Verbindungsparamenter in web.config auslagern
-                DataSource = "maz-01\\sqlexpress",
-                InitialCatalog = "einkaufsliste",
-                IntegratedSecurity = true
-                
+               //Verbindungsparameter zur lokalen Datenbank
+                //DataSource = "maz-01\\sqlexpress",
+                //InitialCatalog = "einkaufsliste",
+                //IntegratedSecurity = true
+
                 //Verbindungsparameter zur Azure Datenbank
-                //DataSource = "mariutscho.database.windows.net",
-                //InitialCatalog = "Einkaufsliste",
-                //PersistSecurityInfo = false,
-                //UserID = "SQLAdmin",
-                //Password = "Passw0rd!",
-                //MultipleActiveResultSets = false,
-                //Encrypt = true,
-                //TrustServerCertificate = false,
-                //ConnectTimeout = 30
+                DataSource = "mariutscho.database.windows.net",
+                InitialCatalog = "Einkaufsliste",
+                PersistSecurityInfo = false,
+                UserID = "SQLAdmin",
+                Password = "Passw0rd!",
+                MultipleActiveResultSets = false,
+                Encrypt = true,
+                TrustServerCertificate = false,
+                ConnectTimeout = 30
 
                 //Server=tcp:mariutscho.database.windows.net,1433;Initial Catalog=Einkaufsliste;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             };
