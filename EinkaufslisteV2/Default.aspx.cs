@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using log4net;
 using log4net.Config;
 using System.Data;
 using System.Data.SqlClient;
+using EinkaufslisteV2.Models;
 
 
 namespace EinkaufslisteV2
@@ -16,7 +14,7 @@ namespace EinkaufslisteV2
     public partial class _Default : Page
     {
 
-        private Models.DBConnection dbconnect = new Models.DBConnection();
+        private DBConnection dbconnect = new DBConnection();
         private SqlCommand cmd = new SqlCommand();
         private SqlDataReader reader; //!< Rückgabe der Datenbankabfrage
         private static readonly ILog log = LogManager.GetLogger(typeof(_Default));

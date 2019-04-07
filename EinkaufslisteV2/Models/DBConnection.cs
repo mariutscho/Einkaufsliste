@@ -10,12 +10,10 @@ namespace EinkaufslisteV2.Models
 {
     public class DBConnection
     {
-        //TODO DB Connection auslagern, da von mehreren Klassen verwendet
         #region ====== properties ======
         private static readonly ILog log = LogManager.GetLogger(typeof(DBConnection));
         private SqlConnectionStringBuilder conbuilder;
         public SqlConnection con;
-        //public SqlCommand cmd;
         /// <summary>
         /// Baue Datenbankverbindung auf und lese Produkte aus
         /// </summary>
@@ -44,8 +42,6 @@ namespace EinkaufslisteV2.Models
                 Encrypt = true,
                 TrustServerCertificate = false,
                 ConnectTimeout = 30
-
-                //Server=tcp:mariutscho.database.windows.net,1433;Initial Catalog=Einkaufsliste;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             };
 
             log.Debug("Datenbankverbindung zu Server: " + conbuilder.DataSource + "und Datenbank: " + conbuilder.InitialCatalog);
@@ -58,19 +54,7 @@ namespace EinkaufslisteV2.Models
             {
                 ConnectionString = conbuilder.ConnectionString
             };
-
         }
-
-
-        //public void PerformSQLQuery(string query)
-        //{
-        //    //
-        //    cmd.Connection = con;
-        //    cmd = new SqlCommand();
-        //    //{
-        //    //    CommandText = query
-        //    //}; //!< Abfrage an Datenbank
-        //}
 
         public void CloseSQLConnection()
         {

@@ -7,12 +7,13 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using log4net;
+using EinkaufslisteV2.Models;
 
 namespace EinkaufslisteV2
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        private Models.DBConnection dbconnect = new Models.DBConnection();
+        private DBConnection dbconnect = new DBConnection();
         private SqlCommand cmdListe = new SqlCommand(); //!< Abfrage an Datenbank
         private SqlDataReader readerListe; //!< Rückgabe der Datenbankabfrage
         private static readonly ILog log = LogManager.GetLogger(typeof(WebForm1));
@@ -26,7 +27,6 @@ namespace EinkaufslisteV2
         {
             try
             {
-                // TODO: Unterscheide nach Markt und gebe in zwei Tabellen aus
                 // Generiere Warenkorb sortiert nach Srandort der Produkte im Regal
                 cmdListe.CommandText = "SELECT produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' AND produktMarkt = 'Aldi' ORDER BY produktRangfolge";
                 cmdListe.Connection = dbconnect.con;

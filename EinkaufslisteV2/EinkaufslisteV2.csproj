@@ -146,6 +146,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Aldi.aspx" />
+    <Content Include="Eingabe.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -231,6 +232,13 @@
     </Compile>
     <Compile Include="Aldi.aspx.designer.cs">
       <DependentUpon>Aldi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eingabe.aspx.cs">
+      <DependentUpon>Eingabe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eingabe.aspx.designer.cs">
+      <DependentUpon>Eingabe.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
