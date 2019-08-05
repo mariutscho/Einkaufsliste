@@ -5,6 +5,11 @@
             <div class="einkaufMarkt">
                     <asp:GridView ID="EinkaufslisteRewe" runat="server" ></asp:GridView>
                 </div>
-
-                <asp:Label ID="ausgabe" runat="server" CssClass="error"></asp:Label>
+                <div class="btn-group" data-toggle="buttons">
+                <asp:Panel ID="Einkaufsliste" runat="server"></asp:Panel>
+                 </div>
+         <div class="row">
+            <asp:Button ID="DeleteItem" runat="server" Text="Eingekaufte Produkte entfernen" OnClick="ClearWarenkorb" CssClass="btn btn-default" />
+        </div>
+                 <asp:Label ID="ausgabe" runat="server" CssClass="error"></asp:Label>
 </asp:Content>

@@ -31,13 +31,13 @@ namespace EinkaufslisteV2 {
         protected global::System.Web.UI.WebControls.TextBox Produkt;
         
         /// <summary>
-        /// MarktLbl-Steuerelement
+        /// LblMarkt-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label MarktLbl;
+        protected global::System.Web.UI.WebControls.Label LblMarkt;
         
         /// <summary>
         /// Markt-Steuerelement
@@ -83,6 +83,15 @@ namespace EinkaufslisteV2 {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Ausgabe;
+        
+        /// <summary>
+        /// addProduct-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink addProduct;
         
         /// <summary>
         /// produktanzahl-Steuerelement

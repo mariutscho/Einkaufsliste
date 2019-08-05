@@ -22,6 +22,24 @@ namespace EinkaufslisteV2 {
         protected global::System.Web.UI.WebControls.GridView EinkaufslisteRewe;
         
         /// <summary>
+        /// Einkaufsliste-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Einkaufsliste;
+        
+        /// <summary>
+        /// DeleteItem-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button DeleteItem;
+        
+        /// <summary>
         /// ausgabe-Steuerelement
         /// </summary>
         /// <remarks>

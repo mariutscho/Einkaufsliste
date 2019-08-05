@@ -15,27 +15,28 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-   <script>
-       function clear_form_elements(ele) {
+    <script>
+        function clear_form_elements(ele) {
 
-        $(ele).find(':input').each(function() {
-            switch(this.type) {
-                case 'password':
-                case 'select-multiple':
-                case 'select-one':
-                case 'text':
-                case 'textarea':
-                    $(this).val('');
-                    break;
-                case 'checkbox':
-                case 'radio':
-                    this.checked = false;
-            }
-        });
+            $(ele).find(':input').each(function () {
+                switch (this.type) {
+                    case 'password':
+                    case 'select-multiple':
+                    case 'select-one':
+                    case 'text':
+                    case 'textarea':
+                        $(this).val('');
+                        break;
+                    case 'checkbox':
+                    case 'radio':
+                        this.checked = false;
+                }
+            });
 
-    }
-
-   </script>
+        }
+   
+    </script>
+  
 </head>
 <body>
     <form runat="server">
@@ -91,5 +92,18 @@
         </div>
 
     </form>
+    <script>
+        $(document).ready(function () {
+            $("label").click(function () {
+
+                if ($(this).hasClass("active")) {
+                    $(this).children().removeAttr("checked");
+                }
+                else {
+                    $(this).children().attr("checked", "true");
+                }
+            });
+        });
+    </script>
 </body>
 </html>

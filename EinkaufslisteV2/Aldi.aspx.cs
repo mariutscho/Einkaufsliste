@@ -11,18 +11,21 @@ using EinkaufslisteV2.Models;
 
 namespace EinkaufslisteV2
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm1 : Page
     {
-        private DBConnection dbconnect = new DBConnection();
+        private DBConnection dbconnect = new DBConnection(); //!< Neue Datenbankverbindung mit Zugangsdaten anlegen
         private SqlCommand cmdListe = new SqlCommand(); //!< Abfrage an Datenbank
         private SqlDataReader readerListe; //!< Rückgabe der Datenbankabfrage
-        private static readonly ILog log = LogManager.GetLogger(typeof(WebForm1));
+        private static readonly ILog log = LogManager.GetLogger(typeof(WebForm1)); //!< Logger
         protected void Page_Load(object sender, EventArgs e)
         {
             dbconnect.BuildSQLConnectionString();
             dbconnect.OpenSQLConnection();
              EinkaufslisteGenerieren();
         }
+        /// <summary>
+        /// Einkaufsliste mit ausgewählten Produkten für Aldi generieren.
+        /// </summary>
         private void EinkaufslisteGenerieren()
         {
             try
@@ -42,7 +45,7 @@ namespace EinkaufslisteV2
                     DataBind();
                     readerListe.Close();
                     dbconnect.con.Close();
-                    //TODO Ausgabe für Print optimieren
+                    //TODO zurückgestellt: Ausgabe für Print optimieren
                 }
 
             }

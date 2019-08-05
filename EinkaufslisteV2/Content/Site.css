@@ -34,3 +34,9 @@ textarea {
     background-color: lightslategray ;
     margin-bottom:3px;
 }
+
+/**/
+[data-toggle='buttons'] > div#MainContent_Einkaufsliste > .btn input[type='checkbox'] {
+    position: absolute;
+    clip: rect(0px, 0px, 0px, 0px);
+}

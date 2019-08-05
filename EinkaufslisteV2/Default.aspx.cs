@@ -31,48 +31,26 @@ namespace EinkaufslisteV2
             if (!IsPostBack)
             {
                 this.GetProdukte();
-                this.listCheckbox();
-
-            }
+             }
         }
 
-       
-        private void listCheckbox()
-        {
-            //CheckBox chk = new CheckBox();
-            //chk.ID = "1";
-            //chk.Text = "test";
-            //chk.LabelAttributes.Add("Css", "btn btn-primary");
-            //CheckBoxList cbList = new CheckBoxList();
-
-            //for (int i = 0; i < 10; i++)
-            //    cbList.Items.Add(new ListItem("Checkbox " + i.ToString(), i.ToString()));
-
-            //test.Controls.Add(chk);
-
-
-        }
         /// <summary>
         /// Gebe Produkte aus und sortiere alphabetisch. 
         /// Organisiere die Produkte nach Kategorien.
         /// Selektiere bereits ausgewählte Produkte.
         /// </summary>
-        //TODO Die Auswahl aller Checkboxen zurücksetzen
         //TODO Produkte für Standardeinkauf auswählen
         //TODO Produkte für Gelegenheiten ausblenden (wie z.B. Weihnachten)
         private void GetProdukte()
         {
-
-
             // Frage nach Status der DB Verbindung
             if (dbconnect.con.State == ConnectionState.Closed)
             {
                 try
                 {
                     dbconnect.con.Open();
-                    // Alle Produkte
+                    // Holle alle Produkte für Einkaufsliste
                     cmd.CommandText = "SELECT * FROM produkt ORDER BY produktName";
-                    //dbconnect.PerformSQLQuery("SELECT * FROM produkt ORDER BY produktName");
                     reader = cmd.ExecuteReader();
 
                     // https://www.aspsnippets.com/Articles/Bind-CheckBoxList-from-Database-in-ASPNet.aspx
@@ -80,15 +58,6 @@ namespace EinkaufslisteV2
                     while (reader.Read())
                     {
                         ListItem item = new ListItem();
-
-                        if (reader["produktName"].ToString() == "Apfel")
-                        {
-                        CheckBox test = new CheckBox();
-                            test.ID = String.Format("CheckBox_{0}", reader["produktName"].ToString());
-                            test.Text = String.Format("CheckBox {0}", reader["produktName"].ToString());
-                          
-                        }
-
 
                         item.Text = reader["produktName"].ToString();
                         item.Value = reader["produktID"].ToString();
@@ -98,22 +67,7 @@ namespace EinkaufslisteV2
                             item.Selected = true;
                         }
 
-                        //if (reader["produktName"].ToString() == "Apfel")
-                        //{
-                        //    Apfel.Checked = true;
-                        
-                        //}
-                        //if ((reader["produktname"].ToString() == "Toast") && (reader["ProduktWarenkorb"].ToString() == "true"))
-                        //{
-                        //    Toast.Checked = true;
-                        //}
-                        //if ((reader["produktname"].ToString() == "Mehrkornbroetchen" && reader["ProduktWarenkorb"].ToString() == "true"))
-                        //{
-                        //    Mehrkornbroetchen.Checked = true;
-                        //}
-
                         string produktKategorie = reader["produktKategorie"].ToString();
-
                         switch (produktKategorie)
                         {
                             // Füge der Auswahlliste das Produkt hinzu
@@ -159,7 +113,6 @@ namespace EinkaufslisteV2
                     ausgabe.Text = "Ein Fehler ist aufgetreten: " + ex.Message;
                 }
             }
-
             dbconnect.con.Close();
         }
         /// <summary>

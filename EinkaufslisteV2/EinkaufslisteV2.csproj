@@ -186,6 +186,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="View\CeckboxButton.cs" />
+    <Compile Include="namespaceDoku.cs" />
     <Compile Include="Models\DBConnection.cs" />
     <Compile Include="Rewe.aspx.cs">
       <DependentUpon>Rewe.aspx</DependentUpon>

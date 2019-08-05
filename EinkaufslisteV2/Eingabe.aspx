@@ -7,7 +7,7 @@
         <asp:TextBox ID="Produkt" runat="server" Text="" CssClass="form-control"></asp:TextBox>
     </div>
     <div class="form-group">
-        <asp:Label ID="MarktLbl" runat="server" Text="Markt" AssociatedControlID="Markt"></asp:Label>
+        <asp:Label ID="LblMarkt" runat="server" Text="Markt" AssociatedControlID="Markt"></asp:Label>
         <asp:RadioButtonList ID="Markt" runat="server"></asp:RadioButtonList>
     </div>
     <div class="form-group">
@@ -18,5 +18,7 @@
         <asp:Button ID="Speichern" runat="server" Text="Speichern" CssClass="btn btn-default" OnClick="AddProdukt" />
     </div>
     <asp:Label ID="Ausgabe" runat="server"></asp:Label>
+    <br /><br />
+    <asp:HyperLink ID="addProduct" runat="server" NavigateUrl="~/Eingabe.aspx">Weiteres Produkt hinzufügen</asp:HyperLink>
     <asp:HiddenField ID="produktanzahl" runat="server" />
 </asp:Content>

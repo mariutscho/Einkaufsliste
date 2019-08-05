@@ -24,6 +24,9 @@ namespace EinkaufslisteV2
             dbconnect.BuildSQLConnectionString();
             dbconnect.OpenSQLConnection();
             GetAnzahlProdukte();
+            // Verstecke 
+            addProduct.Visible = false;
+         
 
             if (!IsPostBack) {
             // Elemente für DropDown Liste anlegen
@@ -50,7 +53,8 @@ namespace EinkaufslisteV2
 /// </summary>
         public void GetAnzahlProdukte()
         {
-             cmd.CommandText = "SELECT COUNT(*) FROM Produkt";
+            // TODO: Try-Catch einbauen
+            cmd.CommandText = "SELECT COUNT(*) FROM Produkt";
              cmd.Connection = dbconnect.con;
                 if (dbconnect.con.State == ConnectionState.Closed)
                 {
@@ -77,7 +81,7 @@ namespace EinkaufslisteV2
                 "('"+ x + "','" + produktName + "','" + produktMarkt + "','" + produktKategorie + "')";
                 //Ausgabe.Text = cmd.CommandText;
                 Ausgabe.Text = "Das Produkt wurde erfolgreich hinzugefügt";
-                Ausgabe.CssClass = "has-success";
+                Ausgabe.CssClass = "bg-success";
                 cmd.Connection = dbconnect.con;
                 if (dbconnect.con.State == ConnectionState.Closed)
                 {
@@ -85,6 +89,17 @@ namespace EinkaufslisteV2
                     cmd.ExecuteNonQuery();
                     dbconnect.con.Close();
                 }
+
+                LblProdukt.Visible = false;
+                Produkt.Visible = false;
+                LblMarkt.Visible = false;
+                Markt.Visible = false;
+                LblProduktkategorie.Visible = false;
+                Kategorie.Visible = false;
+                addProduct.Visible = true;
+                Speichern.Visible = false;
+
+
             }
             catch(Exception ex)
             {
@@ -92,6 +107,8 @@ namespace EinkaufslisteV2
                 Ausgabe.Text = "Ein Fehler ist aufgetreten: " + ex.Message + "Das SQL Statement ist: " + cmd.CommandText;
             }
         }
+
+       
 
 
     }
