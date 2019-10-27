@@ -33,9 +33,21 @@ namespace EinkaufslisteV2
         {
             try
             {
-                // TODO: Unterscheide nach Markt und gebe in zwei Tabellen aus
-                // Generiere Warenkorb sortiert nach Srandort der Produkte im Regal
+                // Generiere Warenkorb sortiert nach Standort der Produkte im Regal
+                // TODO: Unterscheide nach Markt
+                // RequestForm Objekt  holen
+
+                // DEFAULT: wenn nicht markiert oder "MarktAlle": Alle Produkte ausgeben
                 cmdListe.CommandText = "SELECT produktID, produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' ORDER BY produktRangfolge";
+
+                //"MarktAldi" als Optionsfeld ausgewählt
+                //if (inlineRadioOptionen == "MarktAldi")
+                //cmdListe.CommandText = "SELECT produktID, produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' AND produktMarkt = 'Aldi' ORDER BY produktRangfolge";
+
+                //"MarktRewe" als Optionsfeld ausgewählt
+
+                //"MarktDM" als Optionsfeld ausgewählt
+
                 cmdListe.Connection = dbconnect.con;
                 // Frage nach Status der DB Verbindung
                 if (dbconnect.con.State == ConnectionState.Closed)
@@ -56,7 +68,6 @@ namespace EinkaufslisteV2
                         //input.Attributes.Add("type", "checkbox");
                         //input.Attributes.Add("autocomplete", "off");
 
-                        // TODO Erzeuge generisches Label
                         // http://holdirbootstrap.de/javascript/#buttons
                         // das auf Bootstrap Code passt.
                         //https://www.codeproject.com/articles/25573/building-asp-net-web-pages-dynamically-in-the-code
@@ -70,7 +81,7 @@ namespace EinkaufslisteV2
                     //DataBind();
                     readerListe.Close();
                     dbconnect.con.Close();
-                    //TODO zurückgestellt: Ausgabe für Print optimieren
+                    //TODO: zurückgestellt: Ausgabe für Print optimieren
                 }
 
             }
@@ -87,7 +98,6 @@ namespace EinkaufslisteV2
         {
             try
             {
-                // TODO Entferne alle Produkte aus Warenkorb, die derzeit "gecheckt" wurden 
                 //(fachlich: Das Produkt ist im Einkaufswagen und kann von der Einkaufsliste 
                 // entfernt werden.
 

@@ -39,8 +39,8 @@ namespace EinkaufslisteV2
         /// Organisiere die Produkte nach Kategorien.
         /// Selektiere bereits ausgewählte Produkte.
         /// </summary>
-        //TODO Produkte für Standardeinkauf auswählen
-        //TODO Produkte für Gelegenheiten ausblenden (wie z.B. Weihnachten)
+        //TODO: Produkte für Standardeinkauf auswählen
+        //TODO: Produkte für Gelegenheiten ausblenden (wie z.B. Weihnachten)
         private void GetProdukte()
         {
             // Frage nach Status der DB Verbindung

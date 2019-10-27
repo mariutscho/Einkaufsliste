@@ -54,7 +54,9 @@ namespace EinkaufslisteV2
         public void GetAnzahlProdukte()
         {
             // TODO: Try-Catch einbauen
-            cmd.CommandText = "SELECT COUNT(*) FROM Produkt";
+            //TODO: ##BUG##: Durch das Enfernen von Produkten aus der DB-Tabelle stimmt die ID nicht mehr mit der Anzahl der Produkte überein.
+            //https://datenbanken-verstehen.de/sql-funktionen/sql-max-funktion/
+            cmd.CommandText = "Select MAX(produktID) from Produkt";
              cmd.Connection = dbconnect.con;
                 if (dbconnect.con.State == ConnectionState.Closed)
                 {

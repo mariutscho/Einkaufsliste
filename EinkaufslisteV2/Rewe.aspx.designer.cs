@@ -13,15 +13,6 @@ namespace EinkaufslisteV2 {
     public partial class Contact {
         
         /// <summary>
-        /// EinkaufslisteRewe-Steuerelement
-        /// </summary>
-        /// <remarks>
-        /// Automatisch generiertes Feld
-        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView EinkaufslisteRewe;
-        
-        /// <summary>
         /// Einkaufsliste-Steuerelement
         /// </summary>
         /// <remarks>

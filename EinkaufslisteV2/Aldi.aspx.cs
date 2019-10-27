@@ -45,7 +45,7 @@ namespace EinkaufslisteV2
                     DataBind();
                     readerListe.Close();
                     dbconnect.con.Close();
-                    //TODO zurückgestellt: Ausgabe für Print optimieren
+                    //TODO: zurückgestellt: Ausgabe für Print optimieren
                 }
 
             }
