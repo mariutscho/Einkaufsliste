@@ -13,13 +13,13 @@ namespace EinkaufslisteV2 {
     public partial class WebForm1 {
         
         /// <summary>
-        /// EinkaufslisteAldi-Steuerelement
+        /// Einkaufsliste-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView EinkaufslisteAldi;
+        protected global::System.Web.UI.WebControls.GridView Einkaufsliste;
         
         /// <summary>
         /// ausgabe-Steuerelement

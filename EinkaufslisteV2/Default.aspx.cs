@@ -38,9 +38,12 @@ namespace EinkaufslisteV2
         /// Gebe Produkte aus und sortiere alphabetisch. 
         /// Organisiere die Produkte nach Kategorien.
         /// Selektiere bereits ausgewählte Produkte.
+        /// 
+        /// STANDARDS;
+        /// Kommentare und Programmierung sind in deutsch geschrieben.
         /// </summary>
-        //TODO: Produkte für Standardeinkauf auswählen
-        //TODO: Produkte für Gelegenheiten ausblenden (wie z.B. Weihnachten)
+        //TODO: 99 Produkte für Standardeinkauf auswählen
+        //TODO: 99 Produkte für Gelegenheiten ausblenden (wie z.B. Weihnachten)
         private void GetProdukte()
         {
             // Frage nach Status der DB Verbindung

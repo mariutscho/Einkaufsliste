@@ -31,7 +31,7 @@ namespace EinkaufslisteV2
             try
             {
                 // Generiere Warenkorb sortiert nach Srandort der Produkte im Regal
-                cmdListe.CommandText = "SELECT produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' AND produktMarkt = 'Aldi' ORDER BY produktRangfolge";
+                cmdListe.CommandText = "SELECT produktName, produktMarkt, produktPreis FROM Produkt WHERE produktWarenkorb = 'TRUE' ORDER BY produktRangfolge";
                 cmdListe.Connection = dbconnect.con;
                 // Frage nach Status der DB Verbindung
                 if (dbconnect.con.State == ConnectionState.Closed)
@@ -41,11 +41,10 @@ namespace EinkaufslisteV2
                     readerListe = cmdListe.ExecuteReader();
                     // https://stackoverflow.com/questions/15829079/how-to-bind-dataset-with-gridview
                     log.Debug("Daten werden an das Table Control gebunden");
-                    EinkaufslisteAldi.DataSource = readerListe;
+                    Einkaufsliste.DataSource = readerListe;
                     DataBind();
                     readerListe.Close();
                     dbconnect.con.Close();
-                    //TODO: zurückgestellt: Ausgabe für Print optimieren
                 }
 
             }

@@ -26,7 +26,7 @@ namespace EinkaufslisteV2.Models
 
             conbuilder = new SqlConnectionStringBuilder //! Verbindungsparameter initiieren
             {
-                //TODO: Verbindungsparamenter in web.config auslagern
+                //TODO: 99 Verbindungsparamenter in web.config auslagern
                 //Verbindungsparameter zur lokalen Datenbank
                 //DataSource = "maz-01\\sqlexpress",
                 //InitialCatalog = "einkaufsliste",
